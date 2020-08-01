@@ -1,0 +1,35 @@
+.top-panel-bar ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    background-color: rgb(182, 181, 181);
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+ul li.active{
+    background-color: rgb(105, 105, 105);
+}
+ul li:hover{
+    background-color: rgb(131, 130, 130);
+    cursor: pointer;
+}
+
+div.panel-content{
+    display: none;
+    background-color: rgb(160, 159, 159);
+    width: 500px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 0px 10px 10px 10px;
+}
+div.panel-content.present{
+    display: block;
+    background-color: rgb(160, 159, 159);
+}
